@@ -4,7 +4,7 @@ import '@/assets/styles/globals.css'
 export const metadata = {
   title: 'property',
   discription: 'find your dream rental property',
-  keywords: 'rental, find rental'
+  keywords: 'rental, find rental, find property'
 }
 
 const MainLayout = ({ children }) => {
