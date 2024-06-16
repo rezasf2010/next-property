@@ -1,4 +1,4 @@
-import { 
+import {
   FacebookShareButton,
   TwitterShareButton,
   WhatsappShareButton,
@@ -6,15 +6,17 @@ import {
   FacebookIcon,
   TwitterIcon,
   WhatsappIcon,
-  EmailIcon
- } from "react-share"
+  EmailIcon,
+} from 'react-share';
 
 const ShareButtons = ({ property }) => {
   const shareUrl = `${process.env.NEXT_PUBLIC_DOMAIN}/properties/${property._id}`;
 
   return (
     <>
-      <h3 className="text-xl font-bold text-center pt-2">Share This Property</h3>
+      <h3 className="text-xl font-bold text-center pt-2">
+        Share This Property
+      </h3>
       <div className="flex gap-3 justify-center pb-5">
         <FacebookShareButton
           url={shareUrl}
@@ -49,7 +51,7 @@ const ShareButtons = ({ property }) => {
         </EmailShareButton>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ShareButtons
+export default ShareButtons;

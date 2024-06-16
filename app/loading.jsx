@@ -1,22 +1,22 @@
-'use client'
+'use client';
 
-import ClipLoader from "react-spinners/ClipLoader"
+import ClipLoader from 'react-spinners/ClipLoader';
 
 const override = {
-    display: 'block',
-    margin: '100px auto'
-}
+  display: 'block',
+  margin: '100px auto',
+};
 
-const LoadingPage = ({  loading}) => {
+const LoadingPage = ({ loading }) => {
   return (
     <ClipLoader
-        color=  '#3b82f6'
-        loading={loading}
-        cssOverride={override}
-        size={150}
-        aria-label="Loading Spinner"
+      color="#3b82f6"
+      loading={loading}
+      cssOverride={override}
+      size={150}
+      aria-label="Loading Spinner"
     />
-  )
-}
+  );
+};
 
-export default LoadingPage
+export default LoadingPage;

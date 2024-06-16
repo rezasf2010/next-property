@@ -1,6 +1,6 @@
-import Image from "next/image"
+import Image from 'next/image';
 
-function PropertyHeaderImage( { image }) {
+function PropertyHeaderImage({ image }) {
   return (
     <section>
       <div className="container-xl m-auto">
@@ -17,7 +17,7 @@ function PropertyHeaderImage( { image }) {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default PropertyHeaderImage
+export default PropertyHeaderImage;
